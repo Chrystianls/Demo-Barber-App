@@ -10,6 +10,14 @@
 }
 
 @font-face {
+  font-family: "SF-pro-medium";
+  src: url("./fonts/SFPRODISPLAYMEDIUM.OTF") format("opentype");
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
   font-family: "SF-pro";
   src: url("./fonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
   font-style: normal;

@@ -4,6 +4,7 @@ import Login from "./Pages/Login";
 import Register from "./Pages/Register";
 import BarberDashboard from "./Pages/BarberDashboard";
 import BarberScheduleDashboard from "./Pages/BarberScheduleDashboard";
+import BarberSettings from "./Pages/BarberSettings";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             path="/barber-schedule-dashboard"
             element={<BarberScheduleDashboard />}
           />
+          <Route path="/barber-settings" element={<BarberSettings />} />
         </Routes>
       </BrowserRouter>
     </div>

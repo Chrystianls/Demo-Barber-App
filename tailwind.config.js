@@ -19,6 +19,7 @@ module.exports = {
     extend: {
       fontFamily: {
         "SF-pro-bold": ['SF-pro-bold', 'sans-serif'],
+        "SF-pro-medium": ['SF-pro-medium', 'sans-serif'],
         "SF-pro": ['SF-pro', 'sans-serif']
       },
       colors: {

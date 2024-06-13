@@ -2,6 +2,7 @@ import { Plus } from "lucide-react";
 import category from "../assets/icons/category.svg";
 import message from "../assets/icons/message.svg";
 import settings from "../assets/icons/setting-2.svg";
+import { Link } from "react-router-dom";
 
 const BarberNavBar = () => {
   return (
@@ -14,18 +15,24 @@ const BarberNavBar = () => {
       </div>
 
       <div className="flex justify-evenly border-t border-[#ddd] py-[10px] bg-white">
-        <div className="flex flex-col items-center gap-y-[6px]">
+        <Link
+          to={"/barber-dashboard"}
+          className="flex flex-col items-center gap-y-[6px]"
+        >
           <img src={category} width={24} height={24} />
           <span className="text-xs text-dark-gray">Painel</span>
-        </div>
+        </Link>
         <div className="flex flex-col items-center gap-y-[6px]">
           <img src={message} width={24} height={24} />
           <span className="text-xs text-light-gray">Mensagens</span>
         </div>
-        <div className="flex flex-col items-center gap-y-[6px]">
+        <Link
+          to={"/barber-settings"}
+          className="flex flex-col items-center gap-y-[6px]"
+        >
           <img src={settings} width={24} height={24} />
           <span className="text-xs text-light-gray">Ajustes</span>
-        </div>
+        </Link>
       </div>
     </div>
   );
