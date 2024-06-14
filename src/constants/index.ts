@@ -1,4 +1,10 @@
-const scheduleClients = [
+type ScheduleClientsProps = {
+  name: string;
+  services: string;
+  description: string;
+}
+
+const scheduleClients: ScheduleClientsProps[] = [
   {
     name: "Pedro",
     services: "Corte de Cabelo & Barba",
