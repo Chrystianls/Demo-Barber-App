@@ -43,7 +43,7 @@ const AddPaymentMethod = () => {
       </div>
 
       <div className="fixed w-full px-5 bottom-5 left-0">
-          <Link to={"/register/preference-availability"}>
+          <Link to={"/register/terms-conditions"}>
             <Button variant={"outline"} className="w-full">
               Próximo
             </Button>

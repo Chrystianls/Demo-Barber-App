@@ -8,6 +8,7 @@ import BarberSettings from "./Pages/BarberSettings";
 import UploadPicture from "./Pages/UploadPicture";
 import PreferenceAvailability from "./Pages/PreferenceAvailability";
 import AddPaymentMethod from "./Pages/AddPaymentMethod";
+import TermsAndConditions from "./Pages/TermsAndConditions";
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
           <Route
             path="/register/add-payment-method"
             element={<AddPaymentMethod />}
+          />
+          <Route
+            path="/register/terms-conditions"
+            element={<TermsAndConditions />}
           />
           <Route path="/barber-dashboard" element={<BarberDashboard />} />
           <Route
