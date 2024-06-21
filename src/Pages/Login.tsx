@@ -24,7 +24,7 @@ const Login = () => {
 
       <p className="text-sm text-light-gray absolute bottom-6">
         Não tem uma conta?{" "}
-        <Link to={"/register"} className="text-dark-gray py-2">
+        <Link to={"/register/personal-info"} className="text-dark-gray py-2">
           Registre-se agora
         </Link>
       </p>

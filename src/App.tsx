@@ -5,6 +5,8 @@ import Register from "./Pages/Register";
 import BarberDashboard from "./Pages/BarberDashboard";
 import BarberScheduleDashboard from "./Pages/BarberScheduleDashboard";
 import BarberSettings from "./Pages/BarberSettings";
+import UploadPicture from "./Pages/UploadPicture";
+import PreferenceAvailability from "./Pages/PreferenceAvailability";
 
 function App() {
   return (
@@ -13,7 +15,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
+          <Route path="/register/personal-info" element={<Register />} />
+          <Route path="/register/upload-picture" element={<UploadPicture />} />
+          <Route
+            path="/register/preference-availability"
+            element={<PreferenceAvailability />}
+          />
           <Route path="/barber-dashboard" element={<BarberDashboard />} />
           <Route
             path="/barber-schedule-dashboard"

@@ -27,7 +27,7 @@ const Home = () => {
         <Link to={"/login"} className="w-full">
           <Button className="w-full mb-4">Entrar</Button>
         </Link>
-        <Link to={"/register"} className="w-full">
+        <Link to={"/register/personal-info"} className="w-full">
           <Button className="w-full" variant={"outline"}>
             Registrar
           </Button>
