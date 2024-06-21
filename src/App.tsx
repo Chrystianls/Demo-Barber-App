@@ -7,6 +7,7 @@ import BarberScheduleDashboard from "./Pages/BarberScheduleDashboard";
 import BarberSettings from "./Pages/BarberSettings";
 import UploadPicture from "./Pages/UploadPicture";
 import PreferenceAvailability from "./Pages/PreferenceAvailability";
+import AddPaymentMethod from "./Pages/AddPaymentMethod";
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
           <Route
             path="/register/preference-availability"
             element={<PreferenceAvailability />}
+          />
+          <Route
+            path="/register/add-payment-method"
+            element={<AddPaymentMethod />}
           />
           <Route path="/barber-dashboard" element={<BarberDashboard />} />
           <Route

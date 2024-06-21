@@ -26,7 +26,7 @@ const PreferenceAvailability = () => {
       </div>
 
       <div className="fixed w-full px-5 bottom-5 left-0">
-        <Link to={"/register/preference-availability"}>
+        <Link to={"/register/add-payment-method"}>
           <Button variant={"outline"} className="w-full">
             Próximo
           </Button>
@@ -35,6 +35,6 @@ const PreferenceAvailability = () => {
       </div>
     </section>
   );
-};
+}; 
 
 export default PreferenceAvailability;
