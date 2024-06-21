@@ -9,6 +9,7 @@ import UploadPicture from "./Pages/UploadPicture";
 import PreferenceAvailability from "./Pages/PreferenceAvailability";
 import AddPaymentMethod from "./Pages/AddPaymentMethod";
 import TermsAndConditions from "./Pages/TermsAndConditions";
+import CustomerDashboard from "./Pages/CustomerDashboard";
 
 function App() {
   return (
@@ -30,6 +31,10 @@ function App() {
           <Route
             path="/register/terms-conditions"
             element={<TermsAndConditions />}
+          />
+          <Route
+            path="/customer-dashboard"
+            element={<CustomerDashboard />}
           />
           <Route path="/barber-dashboard" element={<BarberDashboard />} />
           <Route

@@ -27,7 +27,7 @@ const TermsAndConditions = () => {
       </div>
 
       <div className="fixed w-full px-5 bottom-5 left-0">
-        <Link to={"/register/add-payment-method"}>
+        <Link to={"/customer-dashboard"}>
           <Button variant={"default"} className="w-full">
             Registrar
           </Button>

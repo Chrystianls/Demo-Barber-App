@@ -20,7 +20,9 @@ const Login = () => {
         Esqueci minha senha?
       </Link>
 
-      <Button className="w-full ">Entrar</Button>
+      <Link to={"/customer-dashboard"} className="w-full">
+        <Button className="w-full">Entrar</Button>
+      </Link>
 
       <p className="text-sm text-light-gray absolute bottom-6">
         Não tem uma conta?{" "}
