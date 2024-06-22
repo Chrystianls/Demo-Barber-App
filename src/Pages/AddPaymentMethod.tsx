@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 const AddPaymentMethod = () => {
   return (
     <section>
-      <RegisterNavIcons indexStage={3} />
+      <RegisterNavIcons indexStage={3} linkBackward="/register/preference-availability" />
 
       <div className="px-5">
       <h2 className="text-2xl text-dark-gray mb-8 text-center">

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const UploadPicture = () => {
   return (
     <section className="px-5">
-      <RegisterNavIcons indexStage={1} className="mb-8" />
+      <RegisterNavIcons indexStage={1} linkBackward="/register/personal-info" className="mb-8" />
 
       <h2 className="text-2xl text-dark-gray mb-8 text-center">
         Informações Pessoais

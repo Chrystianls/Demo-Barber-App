@@ -11,7 +11,9 @@ const BarberNavBar = () => {
         className="p-4 bg-dark-gray rounded-full max-w-fit mb-5 self-end mr-5
   "
       >
-        <Plus height={24} width={24} color="white" />
+        <Link to={"/barber-schedule-dashboard"}>
+          <Plus height={24} width={24} color="white" />
+        </Link>
       </div>
 
       <div className="flex justify-evenly border-t border-[#ddd] py-[10px] bg-white">

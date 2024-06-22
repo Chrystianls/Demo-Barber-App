@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const PreferenceAvailability = () => {
   return (
     <section>
-      <RegisterNavIcons indexStage={2} />
+      <RegisterNavIcons indexStage={2} linkBackward="/register/upload-picture" />
 
       <div className="px-5">
       <h2 className="text-2xl text-dark-gray mb-8 text-center">

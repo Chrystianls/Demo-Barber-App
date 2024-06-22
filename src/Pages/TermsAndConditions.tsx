@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const TermsAndConditions = () => {
   return (
     <section>
-      <RegisterNavIcons indexStage={4} />
+      <RegisterNavIcons indexStage={4} linkBackward="/register/add-payment-method" />
 
       <div className="px-5">
         <h2 className="text-2xl text-dark-gray mb-8 text-center">

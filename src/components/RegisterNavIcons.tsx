@@ -9,14 +9,15 @@ import { Link } from "react-router-dom";
 type RegisterNavIconsProps = {
   indexStage: number;
   className?: string;
+  linkBackward?: string;
 };
 
-const RegisterNavIcons = ({ indexStage, className }: RegisterNavIconsProps) => {
+const RegisterNavIcons = ({ indexStage, className, linkBackward }: RegisterNavIconsProps) => {
   const navIcons = [Personal, Upload, Preference, Payment, Terms];
 
   return (
     <div className={`flex flex-col items-center ${className}`}>
-      <Link to={"/"}>
+      <Link to={`${linkBackward ? linkBackward : "/"}`}>
         <img
           src={arrow}
           width={24}
